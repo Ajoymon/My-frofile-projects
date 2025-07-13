@@ -37,10 +37,13 @@
   background-color: #4E47FF;
   color: #ffffff;
   padding: 12px 18px;
-  border-radius: 6px;
+  border-radius: 8px;
   border: none;
   cursor: pointer;
   font-weight: bold;
+}
+.btn-signup:hover{
+  background-color: coral;
 }
 .hero{
   text-align: center;
@@ -60,6 +63,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 121px;
 }
 .img-png{
   width: 403px;
@@ -179,10 +183,89 @@ max-width: 366px;
 .form-1{
   display: flex;
   flex-direction: column;
+  
+
 }
 .title{
   font-weight: bold;
   font-size: 97px;
   color: #000000;
+  max-width: 528px;
 }
+.form-3{
+  padding: 20px 32px;
+  width: 497px;
+  font-size: 20px;
+  border: none;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin-bottom: 32px;
+  
+}
+.form-4{
+  padding: 20px 257px 85px 32px;
+  width: 497px;
+  height: 153px;
+  font-size: 20px;
+  border: none;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.form-title{
+  font-weight: 500;
+  font-style: 18px;
+  color: #000000;
+}
+.btn-signup-form{
+  background-color: #4E47FF;
+  color: #ffffff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 19px;
+}
+.btn-signup-form:hover{
+  background-color: coral;
+}
+/* footer */
+.footer{
+ max-width: 100%;
+ height: 428px;
+ background-color: whitesmoke;
+ margin: 0 auto;
+}
+.footer-box{
+ max-width: 521px;
+ max-height: 233px;
+ margin:98px 455px;
+ padding-top: 98px;
+}
+.text-head-footer{
+  font-weight: bolder;
+  font-size: 100px;
+  color: #4E47FF;
+  text-align: center;
+}
+.footer-pading{
+  color: #8987A1;
+  font-style: 16px;
+  text-align: center;
+}
+ul{
+  list-style-type:none;
+  display: flex;
+  gap: 48px;
+  margin-top: 20px;
+  padding: 0 65px;
+   
+}
+a{
+  text-decoration: none;
+  font-size: 12px;
+  color: #8987A1;
+  
+}
+
 
